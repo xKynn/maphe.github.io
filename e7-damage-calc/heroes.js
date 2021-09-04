@@ -3663,9 +3663,8 @@ const heroes = {
         enhance: [0.01, 0.02, 0.02, 0.02, 0.03]
       },
       s3: {
-        soulburn: true,
-        rate: (soulburn) => soulburn ? 2.2 : 1.5,
         pow: 1.05,
+		penetrate: () => 0.5,
         enhance: [0.05, 0, 0.1, 0, 0.1],
         elemAdv: () => true,
         single: true,
